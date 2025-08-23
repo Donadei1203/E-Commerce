@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loja Tyler, The Creator</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Cadastro</a>
+    <a href="#">Ajuda</a>
+  </header>
+
+  <h1 class="title">E-Commerce - Discos do Tyler, The Creator</h1>
+
+  <div class="disco1">
+    <div id="imagem"></div>
+    <div class="legenda1">
+      <p id="nome"></p>
+      <p id="disco"></p>
+      <p id="estilo"></p>
+      <p id="preco"></p>
+    </div>
+    <button class="compre" onclick="comprar()">Comprar Agora</button>
+  </div>
+
+  <div class="butao">
+    <button class="igor" onclick="mostrarProduto(1)">IGOR</button>
+    <button class="flower" onclick="mostrarProduto(0)">Flower Boy</button>
+    <button class="call" onclick="mostrarProduto(2)">CMIYGL</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

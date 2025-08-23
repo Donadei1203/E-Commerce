@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Tyler, the Creator",
+    "album": "Flower Boy",
+    "genero": "Rap/Pop",
+    "imagem": "<img src='img/flowerboy.jpg' width='200px'>",
+    "preco": "R$129,99"
+  },
+  {
+    "nome": "Tyler, The Creator",
+    "album": "IGOR",
+    "genero": "Rap/Pop",
+    "imagem": "<img src='img/igor.jpg' width='200px'>",
+    "preco": "R$109,99"
+  },
+  {
+    "nome": "Tyler, The Creator",
+    "album": "Call Me If You Get Lost",
+    "genero": "Rap/Pop",
+    "imagem": "<img src='img/ifyou.jpg' width='200px'>",
+    "preco": "R$119,99"
+  }
+]
