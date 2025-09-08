@@ -24,3 +24,5 @@ function comprar() {
   const nomeDisco = document.getElementById('disco').innerText
   alert(`Você comprou o álbum ${nomeDisco}`)
 }
+
+console.log(produtos)
