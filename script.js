@@ -6,6 +6,7 @@ fetch('produtos.json')
   .then(corpo => {
     produtos = corpo
     mostrarProduto(0) 
+    console.log(produtos)
   })
 
 
@@ -25,4 +26,5 @@ function comprar() {
   alert(`Você comprou o álbum ${nomeDisco}`)
 }
 
-console.log(produtos)
+
+
